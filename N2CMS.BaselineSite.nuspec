@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>N2CMS.BaselineSite</id>
+        <version>0.1.0</version>
+        <title>N2CMS.BaselineSite</title>
+        <authors>Dejan Milicic</authors>
+        <owners>Dejan Milicic</owners>
+        <projectUrl>https://github.com/DejanMilicic/N2CMS.BaselineSite</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Sample N2CMS website implementation. Install on empty MVC project</description>
+        <tags>n2 n2cms mvc</tags>
+        <dependencies>
+            <dependency id="N2CMS.Baseline" />
+        </dependencies>
+    </metadata>
+    <files>
+ 
+        <file src="readme.txt" target="readme.txt" />
+    </files>
+</package>
