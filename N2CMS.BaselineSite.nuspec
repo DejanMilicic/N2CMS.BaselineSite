@@ -15,7 +15,67 @@
         </dependencies>
     </metadata>
     <files>
- 
+        <file src="content\App_Data\Site.xml.gz" target="content\App_Data\Site.xml.gz" />
+        <file src="content\Content\font-awesome-4.1.0\css\font-awesome.css" target="content\Content\font-awesome-4.1.0\css\font-awesome.css" />
+        <file src="content\Content\font-awesome-4.1.0\css\font-awesome.min.css" target="content\Content\font-awesome-4.1.0\css\font-awesome.min.css" />
+        <file src="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.eot" target="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.eot" />
+        <file src="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.svg" target="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.svg" />
+        <file src="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.ttf" target="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.ttf" />
+        <file src="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.woff" target="content\Content\font-awesome-4.1.0\fonts\fontawesome-webfont.woff" />
+        <file src="content\Content\font-awesome-4.1.0\fonts\FontAwesome.otf" target="content\Content\font-awesome-4.1.0\fonts\FontAwesome.otf" />
+        <file src="content\Content\font-awesome-4.1.0\less\bordered-pulled.less" target="content\Content\font-awesome-4.1.0\less\bordered-pulled.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\core.less" target="content\Content\font-awesome-4.1.0\less\core.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\fixed-width.less" target="content\Content\font-awesome-4.1.0\less\fixed-width.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\font-awesome.less" target="content\Content\font-awesome-4.1.0\less\font-awesome.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\icons.less" target="content\Content\font-awesome-4.1.0\less\icons.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\larger.less" target="content\Content\font-awesome-4.1.0\less\larger.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\list.less" target="content\Content\font-awesome-4.1.0\less\list.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\mixins.less" target="content\Content\font-awesome-4.1.0\less\mixins.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\path.less" target="content\Content\font-awesome-4.1.0\less\path.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\rotated-flipped.less" target="content\Content\font-awesome-4.1.0\less\rotated-flipped.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\spinning.less" target="content\Content\font-awesome-4.1.0\less\spinning.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\stacked.less" target="content\Content\font-awesome-4.1.0\less\stacked.less" />
+        <file src="content\Content\font-awesome-4.1.0\less\variables.less" target="content\Content\font-awesome-4.1.0\less\variables.less" />
+        <file src="content\Content\font-awesome-4.1.0\scss\font-awesome.scss" target="content\Content\font-awesome-4.1.0\scss\font-awesome.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_bordered-pulled.scss" target="content\Content\font-awesome-4.1.0\scss\_bordered-pulled.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_core.scss" target="content\Content\font-awesome-4.1.0\scss\_core.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_fixed-width.scss" target="content\Content\font-awesome-4.1.0\scss\_fixed-width.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_icons.scss" target="content\Content\font-awesome-4.1.0\scss\_icons.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_larger.scss" target="content\Content\font-awesome-4.1.0\scss\_larger.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_list.scss" target="content\Content\font-awesome-4.1.0\scss\_list.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_mixins.scss" target="content\Content\font-awesome-4.1.0\scss\_mixins.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_path.scss" target="content\Content\font-awesome-4.1.0\scss\_path.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_rotated-flipped.scss" target="content\Content\font-awesome-4.1.0\scss\_rotated-flipped.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_spinning.scss" target="content\Content\font-awesome-4.1.0\scss\_spinning.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_stacked.scss" target="content\Content\font-awesome-4.1.0\scss\_stacked.scss" />
+        <file src="content\Content\font-awesome-4.1.0\scss\_variables.scss" target="content\Content\font-awesome-4.1.0\scss\_variables.scss" />
+        <file src="content\Content\fonts\glyphicons-halflings-regular.eot" target="content\Content\fonts\glyphicons-halflings-regular.eot" />
+        <file src="content\Content\fonts\glyphicons-halflings-regular.svg" target="content\Content\fonts\glyphicons-halflings-regular.svg" />
+        <file src="content\Content\fonts\glyphicons-halflings-regular.ttf" target="content\Content\fonts\glyphicons-halflings-regular.ttf" />
+        <file src="content\Content\fonts\glyphicons-halflings-regular.woff" target="content\Content\fonts\glyphicons-halflings-regular.woff" />
+        <file src="content\Content\bootstrap.css" target="content\Content\bootstrap.css" />
+        <file src="content\Content\bootstrap.min.css" target="content\Content\bootstrap.min.css" />
+        <file src="content\Content\modern-business.css" target="content\Content\modern-business.css" />
+        <file src="content\Controllers\N2PartialsController.cs.pp" target="content\Controllers\N2PartialsController.cs.pp" />
+        <file src="content\Models\N2DTO\Navigation.cs.pp" target="content\Models\N2DTO\Navigation.cs.pp" />
+        <file src="content\Models\N2Pages\LanguageIntersection.cs.pp" target="content\Models\N2Pages\LanguageIntersection.cs.pp" />
+        <file src="content\Models\N2Pages\StartPage.cs.pp" target="content\Models\N2Pages\StartPage.cs.pp" />
+        <file src="content\Models\N2Pages\TextPage.cs.pp" target="content\Models\N2Pages\TextPage.cs.pp" />
+        <file src="content\N2Baseline\Models\PageModelBase.cs.pp" target="content\N2Baseline\Models\PageModelBase.cs.pp" />
+        <file src="content\N2Baseline\Models\PublicPageModelBase.cs.pp" target="content\N2Baseline\Models\PublicPageModelBase.cs.pp" />
+        <file src="content\N2Baseline\Defaults.cs.pp" target="content\N2Baseline\Defaults.cs.pp" />
+        <file src="content\N2Baseline\N2Utils.cs.pp" target="content\N2Baseline\N2Utils.cs.pp" />
+        <file src="content\N2Baseline\RecursiveContainers.cs.pp" target="content\N2Baseline\RecursiveContainers.cs.pp" />
+        <file src="content\N2Baseline\Sidebars.cs.pp" target="content\N2Baseline\Sidebars.cs.pp" />
+        <file src="content\N2Baseline\Tabs.cs.pp" target="content\N2Baseline\Tabs.cs.pp" />
+        <file src="content\Scripts\bootstrap.js" target="content\Scripts\bootstrap.js" />
+        <file src="content\Scripts\bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
+        <file src="content\Scripts\contact_me.js" target="content\Scripts\contact_me.js" />
+        <file src="content\Scripts\jqBootstrapValidation.js" target="content\Scripts\jqBootstrapValidation.js" />
+        <file src="content\Scripts\jquery.js" target="content\Scripts\jquery.js" />
+        <file src="content\Views\Shared\N2Pages\StartPage.cshtml" target="content\Views\Shared\N2Pages\StartPage.cshtml" />
+        <file src="content\Views\Shared\N2Partials\TopNavigation.cshtml" target="content\Views\Shared\N2Partials\TopNavigation.cshtml" />
+        <file src="content\Views\Shared\_Layout.cshtml" target="content\Views\Shared\_Layout.cshtml" />
         <file src="readme.txt" target="readme.txt" />
     </files>
 </package>
