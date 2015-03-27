@@ -17,7 +17,7 @@ namespace $rootnamespace$.Models.N2Pages
 	[PageDefinition(
 		Title = "Start Page",
 		Description = "The topmost node of a site. This can be placed below a language intersection to also represent a language",
-		IconClass = "n2-icon-globe",
+		IconClass = "icon-globe",
 		InstallerVisibility = N2.Installation.InstallerHint.PreferredStartPage)]
 	[RestrictParents(typeof(IRootPage), typeof(LanguageIntersection))]
 	[RecursiveContainer(RecursiveContainers.Settings.Name, 1000)]

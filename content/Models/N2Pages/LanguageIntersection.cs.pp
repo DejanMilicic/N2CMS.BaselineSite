@@ -17,7 +17,7 @@ namespace $rootnamespace$.Models.N2Pages
 
 	[PageDefinition(
 		Title = "Language Intersection",
-		IconClass = "n2-icon-globe n2-gold",
+		IconClass = "icon-home",
 		InstallerVisibility = N2.Installation.InstallerHint.PreferredStartPage)]
 	[RestrictParents(typeof(IRootPage))]
 	[RestrictCardinality]
