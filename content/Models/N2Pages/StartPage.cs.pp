@@ -1,6 +1,7 @@
 
 namespace $rootnamespace$.Models.N2Pages
 {
+	using System;
 	using System.Globalization;
 
 	using N2;
@@ -33,15 +34,30 @@ namespace $rootnamespace$.Models.N2Pages
 
 		#region ILanguage Members
 
-		public string FlagUrl
+		public override string IconClass
 		{
 			get
 			{
-				if (string.IsNullOrEmpty(this.LanguageCode))
+				if (String.IsNullOrWhiteSpace(this.FlagClass))
+				{
+					return base.IconUrl;
+				}
+				else
+				{
+					return this.FlagClass;
+				}
+			}
+		}
+
+		public string FlagClass
+		{
+			get
+			{
+				if (string.IsNullOrEmpty(LanguageCode))
 					return "";
 
-				string[] parts = this.LanguageCode.Split('-');
-				return N2.Web.Url.ResolveTokens(string.Format("~/N2/Resources/Img/Flags/{0}.png", parts[parts.Length - 1].ToLower()));
+				string[] parts = LanguageCode.Split('-');
+				return N2.Web.Url.ResolveTokens(string.Format("{0} sprite", parts[parts.Length - 1].ToLower()));
 			}
 		}
 
@@ -50,6 +66,9 @@ namespace $rootnamespace$.Models.N2Pages
 
 		[EditableTextBox(Title = "Native Language Name", SortOrder = 101, DefaultValue = "", ContainerName = RecursiveContainers.Settings.Name)]
 		public virtual string LanguageNativeName { get; set; }
+
+		[EditableCheckBox(Title = "Show translation", SortOrder = 200, CheckBoxText = "", DefaultValue = false, ContainerName = RecursiveContainers.Settings.Name)]
+		public virtual bool ShowTranslation { get; set; }
 
 		public string LanguageTitle
 		{
