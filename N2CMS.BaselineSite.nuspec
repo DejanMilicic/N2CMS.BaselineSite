@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>N2CMS.BaselineSite</id>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
         <title>N2CMS.BaselineSite</title>
         <authors>Dejan Milicic</authors>
         <owners>Dejan Milicic</owners>
@@ -73,7 +73,7 @@
         <file src="content\Scripts\contact_me.js" target="content\Scripts\contact_me.js" />
         <file src="content\Scripts\jqBootstrapValidation.js" target="content\Scripts\jqBootstrapValidation.js" />
         <file src="content\Scripts\jquery.js" target="content\Scripts\jquery.js" />
-        <file src="content\Views\Shared\N2Pages\StartPage.cshtml" target="content\Views\Shared\N2Pages\StartPage.cshtml" />
+        <file src="content\Views\Shared\N2Pages\StartPage.cshtml.pp" target="content\Views\Shared\N2Pages\StartPage.cshtml.pp" />
         <file src="content\Views\Shared\N2Partials\TopNavigation.cshtml" target="content\Views\Shared\N2Partials\TopNavigation.cshtml" />
         <file src="content\Views\Shared\_Layout.cshtml" target="content\Views\Shared\_Layout.cshtml" />
         <file src="readme.txt" target="readme.txt" />
