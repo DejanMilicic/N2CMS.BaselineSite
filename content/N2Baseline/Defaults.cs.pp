@@ -12,6 +12,15 @@ namespace $rootnamespace$.N2Baseline
 
 	public static class Defaults
 	{
+		public static class Containers
+		{
+			public const string Metadata = "Metadata";
+			public const string Content = "Content";
+			public const string Settings = "Settings";
+			public const string Site = "Site";
+			public const string Advanced = "Advanced";
+		}
+
 		/// <summary>
 		/// Picks the translation best matching the browser-language or the first translation in the list
 		/// </summary>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>N2CMS.BaselineSite</id>
-        <version>0.2.2</version>
+        <version>0.2.3</version>
         <title>N2CMS.BaselineSite</title>
         <authors>Dejan Milicic</authors>
         <owners>Dejan Milicic</owners>
@@ -61,13 +61,7 @@
         <file src="content\Models\N2Pages\LanguageIntersection.cs.pp" target="content\Models\N2Pages\LanguageIntersection.cs.pp" />
         <file src="content\Models\N2Pages\StartPage.cs.pp" target="content\Models\N2Pages\StartPage.cs.pp" />
         <file src="content\Models\N2Pages\TextPage.cs.pp" target="content\Models\N2Pages\TextPage.cs.pp" />
-        <file src="content\N2Baseline\Models\PageModelBase.cs.pp" target="content\N2Baseline\Models\PageModelBase.cs.pp" />
-        <file src="content\N2Baseline\Models\PublicPageModelBase.cs.pp" target="content\N2Baseline\Models\PublicPageModelBase.cs.pp" />
-        <file src="content\N2Baseline\Defaults.cs.pp" target="content\N2Baseline\Defaults.cs.pp" />
-        <file src="content\N2Baseline\N2Utils.cs.pp" target="content\N2Baseline\N2Utils.cs.pp" />
-        <file src="content\N2Baseline\RecursiveContainers.cs.pp" target="content\N2Baseline\RecursiveContainers.cs.pp" />
-        <file src="content\N2Baseline\Sidebars.cs.pp" target="content\N2Baseline\Sidebars.cs.pp" />
-        <file src="content\N2Baseline\Tabs.cs.pp" target="content\N2Baseline\Tabs.cs.pp" />
+        <file src="content\N2Baseline\**\*.*" target="content\N2Baseline" />
         <file src="content\Scripts\bootstrap.js" target="content\Scripts\bootstrap.js" />
         <file src="content\Scripts\bootstrap.min.js" target="content\Scripts\bootstrap.min.js" />
         <file src="content\Scripts\contact_me.js" target="content\Scripts\contact_me.js" />
