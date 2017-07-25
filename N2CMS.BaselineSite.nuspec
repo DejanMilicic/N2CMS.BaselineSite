@@ -11,7 +11,7 @@
         <description>Sample N2CMS website implementation. Install on empty MVC project</description>
         <tags>n2 n2cms mvc</tags>
         <dependencies>
-            <dependency id="N2CMS.Baseline" version="0.1.4" />
+            <dependency id="N2CMS.Baseline" version="0.1.5" />
         </dependencies>
     </metadata>
     <files>
